@@ -92,7 +92,7 @@ else:
             st.warning("Vector store not available. Please process again.")
 
     # Chat interface
-    st.markdown("### 💬 Chat with Website/File")
+    st.markdown("### 💬 You are compliant or not? Check here")
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.write(message["content"])
